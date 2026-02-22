@@ -3,6 +3,8 @@
 using namespace std;
 int main (){
     list<int> l = {1, 2, 3};
+    
+    //l[2] => erro   -> Random access in list is not possible
 
     l.push_back(4);
     l.push_front(0);
